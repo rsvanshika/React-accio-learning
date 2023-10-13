@@ -1,0 +1,17 @@
+/* somechanges in css
+ 
+1-class is replaced wuth classname
+2-Use {{}} double curly braces for inline css
+3-Concept of Id is not used generally bcz component need to be used again and again
+ and two element should not have same id so this rule will be violated
+*/
+.section{
+    background-color:skyblue;
+}
+
+h1{
+    color:red;
+    text-align:center;
+} 
+/* // (for inline css)    */
+/* style={{color:"red",textAlign:"center"}} */
